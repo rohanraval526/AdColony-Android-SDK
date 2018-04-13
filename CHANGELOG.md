@@ -1,4 +1,8 @@
 # Change Log
+## 3.3.3 (2018/04/13)
+* Fixed issue [#29](https://github.com/AdColony/AdColony-Android-SDK-3/issues/29)
+* Several other bug fixes
+
 ## 3.3.2 (2018/03/16)
 * Several bug fixes
 
