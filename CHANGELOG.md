@@ -1,10 +1,15 @@
 # Change Log
+## 3.3.4 (2018/05/18)
+* Added a new API to pass user consent as required for compliance with the European Union's General Data Protection Regulation (GDPR).
+* Fixed new NullPointerException mentioned in issue [#29](https://github.com/AdColony/AdColony-Android-SDK-3/issues/29#issuecomment-381380548).
+* Several bug fixes and stability improvements.
+
 ## 3.3.3 (2018/04/13)
-* Fixed issue [#29](https://github.com/AdColony/AdColony-Android-SDK-3/issues/29)
-* Several other bug fixes
+* Fixed issue [#29](https://github.com/AdColony/AdColony-Android-SDK-3/issues/29).
+* Several other bug fixes.
 
 ## 3.3.2 (2018/03/16)
-* Several bug fixes
+* Several bug fixes.
 
 ## 3.3.0 (2017/12/13)
 * Added Integral Ad Science (IAS) for viewability measurement.
