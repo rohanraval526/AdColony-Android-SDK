@@ -8,7 +8,7 @@ AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https:/
 
 ## Release Notes
 
-#### Key Features of SDK 3.3.4:
+#### 3.3.4
 * Added a new API to pass user consent as required for compliance with the European Union's General Data Protection Regulation (GDPR). If you are collecting consent from your users, you can make use of this new API to inform AdColony and all downstream consumers of the consent. Please see our [GDPR FAQ](https://www.adcolony.com/gdpr/) for more information.
 * Fixed new NullPointerException mentioned in issue [#29](https://github.com/AdColony/AdColony-Android-SDK-3/issues/29#issuecomment-381380548)
 * Several bug fixes and stability improvements.
