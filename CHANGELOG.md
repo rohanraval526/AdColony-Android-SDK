@@ -1,4 +1,9 @@
 # Change Log
+## 3.3.5 (2018/06/27)
+* Fixed RejectedExecutionException in issue [#37](https://github.com/AdColony/AdColony-Android-SDK-3/issues/37).
+* Made Android SDK changes needed to fix the Unity OnConfigurationCompleted callback issue in [#35](https://github.com/AdColony/AdColony-Unity-SDK-3/issues/35).
+* Several bug fixes and stability improvements.
+
 ## 3.3.4 (2018/05/18)
 * Added a new API to pass user consent as required for compliance with the European Union's General Data Protection Regulation (GDPR).
 * Fixed new NullPointerException mentioned in issue [#29](https://github.com/AdColony/AdColony-Android-SDK-3/issues/29#issuecomment-381380548).
