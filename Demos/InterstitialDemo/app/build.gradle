@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.2"
 
     defaultConfig {
         applicationId "com.adcolony.interstitialdemo"
@@ -19,26 +18,12 @@ android {
     }
 }
 
-ext {
-    supportLibraryVersion = '28.0.0-rc01'
-    playServicesVersion = '15.0.1'
-}
-
 dependencies {
-    implementation "com.android.support:appcompat-v7:$supportLibraryVersion"
+    implementation "androidx.appcompat:appcompat:1.0.0"
     implementation 'com.adcolony:sdk:3.3.5'
-    implementation "com.google.android.gms:play-services-ads:$playServicesVersion"
-}
-
-// This will help resolve the gradle conflict with com.google.android.gms:play-services-ads:15.0.1
-// and the android support library version 28. The play-services-ads library uses a support library
-// that uses version 26, so there is a conflict. This will tell the play-services-ads library to
-// use the support library version that we are also using.
-configurations.all {
-    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-        def requested = details.requested
-        if (requested.group == 'com.android.support') {
-            details.useVersion "$supportLibraryVersion"
-        }
-    }
+    // 16.0.0 is the latest version of the ads API supported by AdColony.
+    // Attempting to use version 17.0.0 leads to a crash
+    // because we cannot set the AdMob App ID in the AndroidManifest.xml:
+    // https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml
+    implementation "com.google.android.gms:play-services-ads:16.0.0"
 }
