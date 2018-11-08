@@ -1,4 +1,10 @@
 # Change Log
+## 3.3.6 (2018/11/07)
+* Added the option to accept an Application for the AdColony.configure() call.
+* Deprecated AdColonyAdViewActivity, AdColonyNativeAdView, and onAudioStarted/onAudioStopped() callbacks.
+* Handle API level 28 changes for [default cleartext traffic behavior](https://developer.android.com/about/versions/pie/android-9.0-changes-28#framework-security-changes).
+* Several bug fixes and stability improvements.
+
 ## 3.3.5 (2018/06/27)
 * Fixed RejectedExecutionException in issue [#37](https://github.com/AdColony/AdColony-Android-SDK-3/issues/37).
 * Made Android SDK changes needed to fix the Unity OnConfigurationCompleted callback issue in [#35](https://github.com/AdColony/AdColony-Unity-SDK-3/issues/35).
