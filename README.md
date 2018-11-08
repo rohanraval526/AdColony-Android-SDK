@@ -9,7 +9,7 @@ AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https:/
 ## Release Notes
 
 #### 3.3.6
-* Added the option to accept an Application for the AdColony.configure() call.
+* Added additional configure() signatures that accept an Application context instead of Activity.
 * Deprecated AdColonyAdViewActivity, AdColonyNativeAdView, and onAudioStarted/onAudioStopped() callbacks.
 * Handle API level 28 changes for [default cleartext traffic behavior](https://developer.android.com/about/versions/pie/android-9.0-changes-28#framework-security-changes).
 * Several bug fixes and stability improvements.
