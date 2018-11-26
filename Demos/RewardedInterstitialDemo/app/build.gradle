@@ -21,9 +21,5 @@ android {
 dependencies {
     implementation "androidx.appcompat:appcompat:1.0.1"
     implementation 'com.adcolony:sdk:3.3.6'
-    // 16.0.0 is the latest version of the ads API supported by AdColony.
-    // Attempting to use version 17.0.0 leads to a crash
-    // because we cannot set the AdMob App ID in the AndroidManifest.xml:
-    // https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml
-    implementation "com.google.android.gms:play-services-ads:16.0.0"
+    implementation "com.google.android.gms:play-services-ads-identifier:16.0.0"
 }
