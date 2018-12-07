@@ -1,6 +1,6 @@
 # AdColony Android SDK
-* Modified: November 7th, 2018
-* SDK Version: 3.3.6
+* Modified: December 6th, 2018
+* SDK Version: 3.3.7
 
 ## Overview
 AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https://www.adcolony.com/technology/instant-play/), [interactive Aurora™ Video](https://www.adcolony.com/technology/auroravideo/), and Aurora™ Playable ads that can be displayed anywhere within your application. Our advertising SDK is trusted by the world’s top gaming and non-gaming publishers, delivering them the highest monetization opportunities from brand and performance advertisers. AdColony’s SDK can monetize a wide range of ad formats including in-stream/pre-roll, out-stream/interstitial and V4VC™, a secure system for rewarding users of your app with virtual currency upon the completion of video and playable ads.
@@ -8,11 +8,13 @@ AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https:/
 
 ## Release Notes
 
-#### 3.3.6
-* Added additional configure() signatures that accept an Application context instead of Activity.
-* Deprecated AdColonyAdViewActivity, AdColonyNativeAdView, and onAudioStarted/onAudioStopped() callbacks.
-* Handle API level 28 changes for [default cleartext traffic behavior](https://developer.android.com/about/versions/pie/android-9.0-changes-28#framework-security-changes).
-* Several bug fixes and stability improvements.
+#### 3.3.7
+
+Please note that with the 3.3.7 SDK the Shared Object (.so) libraries are no longer used. You can safely remove these when updating to 3.3.7.
+
+* Significant stability improvements related to memory consumption.
+* Reduced ad request response times.
+* Removed shared object (.so) libraries, reducing the size of our SDK distribution by 94% in the process, as well as addressing issues [#25](https://github.com/AdColony/AdColony-Android-SDK-3/issues/25), [#33](https://github.com/AdColony/AdColony-Android-SDK-3/issues/33), and [#38](https://github.com/AdColony/AdColony-Android-SDK-3/issues/38).
 
 Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK-3/blob/master/CHANGELOG.md) for all the previous SDK versions and please check out the 3.3 SDK [integration tips](https://www.adcolony.com/blog/2018/02/22/reaching-new-heights-sdk-3-3/).
 
@@ -41,7 +43,7 @@ dependencies {
   /** 
    * Any other dependencies your module has are placed in this dependency configuration
    */
-  implementation 'com.adcolony:sdk:3.3.6'
+  implementation 'com.adcolony:sdk:3.3.7'
 }
 ```
 
