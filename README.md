@@ -10,7 +10,7 @@ AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https:/
 
 #### 3.3.7
 
-Please note that with the 3.3.7 SDK the Shared Object (.so) libraries are no longer used. You can safely remove these when updating to 3.3.7.
+Please note that with the 3.3.7 SDK our native shared object (.so) libraries are no longer used. You can safely remove these when updating to 3.3.7.
 
 * Significant stability improvements related to memory consumption.
 * Reduced ad request response times.
