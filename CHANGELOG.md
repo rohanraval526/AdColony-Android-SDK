@@ -1,4 +1,9 @@
 # Change Log
+## 3.3.7 (2018/12/06)
+* Significant stability improvements related to memory consumption.
+* Reduced ad request response times.
+* Removed shared object (.so) libraries, reducing the size of our SDK distribution by 94% in the process, as well as addressing issues [#25](https://github.com/AdColony/AdColony-Android-SDK-3/issues/25), [#33](https://github.com/AdColony/AdColony-Android-SDK-3/issues/33), and [#38](https://github.com/AdColony/AdColony-Android-SDK-3/issues/38).
+
 ## 3.3.6 (2018/11/07)
 * Added additional configure() signatures that accept an Application context instead of Activity.
 * Deprecated AdColonyAdViewActivity, AdColonyNativeAdView, and onAudioStarted/onAudioStopped() callbacks.
