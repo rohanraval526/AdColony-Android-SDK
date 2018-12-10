@@ -33,11 +33,13 @@ public class InterstitialActivity extends Activity {
         progress = findViewById(R.id.progress);
 
         // Construct optional app options object to be sent with configure
-        AdColonyAppOptions app_options = new AdColonyAppOptions().setUserID("unique_user_id");
+        AdColonyAppOptions appOptions = new AdColonyAppOptions()
+            .setUserID("unique_user_id")
+            .setKeepScreenOn(true);
 
         // Configure AdColony in your launching Activity's onCreate() method so that cached ads can
         // be available as soon as possible.
-        AdColony.configure(this, app_options, APP_ID, ZONE_ID);
+        AdColony.configure(this, appOptions, APP_ID, ZONE_ID);
 
         // Optional user metadata sent with the ad options in each request
         AdColonyUserMetadata metadata = new AdColonyUserMetadata()
