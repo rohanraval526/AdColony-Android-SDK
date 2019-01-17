@@ -1,4 +1,7 @@
 # Change Log
+## 3.3.8 (2018/01/17)
+* Handled RuntimeExceptions that can occur during WebView initialization if the device reports that it is missing the WebView package
+
 ## 3.3.7 (2018/12/06)
 * Significant stability improvements related to memory consumption.
 * Reduced ad request response times.
