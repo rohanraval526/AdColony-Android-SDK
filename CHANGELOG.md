@@ -1,5 +1,5 @@
 # Change Log
-## 3.3.8 (2018/01/17)
+## 3.3.8 (2019/01/17)
 * Handled RuntimeExceptions that can occur during WebView initialization if the device reports that it is missing the WebView package
 
 ## 3.3.7 (2018/12/06)
