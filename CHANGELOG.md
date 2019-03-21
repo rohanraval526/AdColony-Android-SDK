@@ -1,7 +1,6 @@
 # Change Log
 ## 3.3.9 (2019/03/20)
-* Fixed NullPointerException that was occurring on Android Lollipop devices with the 3.3.7 and 3.3.8 SDKs.
-* Several bug fixes and stability improvements.
+* Fixed NullPointerException that stopped ads from being served on Android Lollipop devices with the 3.3.7 and 3.3.8 SDKs.
 
 ## 3.3.8 (2019/01/17)
 * Handled RuntimeExceptions that can occur during WebView initialization if the device reports that it is missing the WebView package
