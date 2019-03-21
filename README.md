@@ -10,8 +10,7 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 #### 3.3.9
 
-* Fixed NullPointerException that was occurring on Android Lollipop devices with the 3.3.7 and 3.3.8 SDKs.
-* Several bug fixes and stability improvements.
+* Fixed NullPointerException that stopped ads from being served on Android Lollipop devices with the 3.3.7 and 3.3.8 SDKs.
 
 #### 3.3.7
 
