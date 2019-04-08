@@ -12,10 +12,6 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 * Fixed NullPointerException that stopped ads from being served on Android Lollipop devices with the 3.3.7 and 3.3.8 SDKs.
 
-#### 3.3.7
-
-Please note that with the 3.3.7 SDK our native shared object (.so) libraries are no longer used. You can safely remove these when updating to 3.3.7 or later.
-
 Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK-3/blob/master/CHANGELOG.md) for all the previous SDK versions and please check out the 3.3 SDK [integration tips](https://www.adcolony.com/blog/2018/02/22/reaching-new-heights-sdk-3-3/).
 
 ## Getting Started 
