@@ -1,4 +1,7 @@
 # Change Log
+## 3.3.10 (2019/04/09)
+* Improved WebView behavior for duties previously handled by our shared object libraries.
+
 ## 3.3.9 (2019/03/20)
 * Fixed NullPointerException that stopped ads from being served on Android Lollipop devices with the 3.3.7 and 3.3.8 SDKs.
 
