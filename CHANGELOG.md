@@ -1,4 +1,7 @@
 # Change Log
+## 3.3.11 (2019/07/15)
+* Fixed ConcurrentModificationException that was exposed with a server-side update.
+
 ## 3.3.10 (2019/04/09)
 * Improved WebView behavior for duties previously handled by our shared object libraries.
 
