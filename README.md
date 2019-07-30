@@ -18,6 +18,11 @@ Here is the link to the [release notes](https://github.com/AdColony/AdColony-And
 ## Getting Started 
 To get started, here is the link to [Android SDK integration documentation](https://github.com/AdColony/AdColony-Android-SDK-3/wiki).
 
+### Supporting 64-bit on Android
+Version 3.3.7 and above no longer uses the .so libraries and these can be removed from your project. SDK 3.3.7 and above supports 64-bit without the .so libraries.
+
+If you are using using earlier 3.x SDK versions you need to add the proper libadcolony.so and libjs.so architectures to your project to support 64-bit.
+
 ## Upgrade 
 #### SDK 2.x:
 
