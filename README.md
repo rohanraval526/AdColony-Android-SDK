@@ -10,8 +10,9 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 #### 4.1.0
 
-* Added banner ads.
-* Implemented the Open Measurement SDK for viewability measurement and received certification from IAB.
+* Integration with OM SDK
+* Added support for banners
+* Bugfixes and stability improvements
 
 Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md) for all the previous SDK versions and please check out the 3.3 SDK [integration tips](https://www.adcolony.com/blog/2018/02/22/reaching-new-heights-sdk-3-3/).
 
