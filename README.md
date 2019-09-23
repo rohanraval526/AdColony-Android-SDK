@@ -13,10 +13,10 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 * Added banner ads.
 * Implemented the Open Measurement SDK for viewability measurement and received certification from IAB.
 
-Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK-3/blob/master/CHANGELOG.md) for all the previous SDK versions and please check out the 3.3 SDK [integration tips](https://www.adcolony.com/blog/2018/02/22/reaching-new-heights-sdk-3-3/).
+Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md) for all the previous SDK versions and please check out the 3.3 SDK [integration tips](https://www.adcolony.com/blog/2018/02/22/reaching-new-heights-sdk-3-3/).
 
 ## Getting Started 
-To get started, here is the link to [Android SDK integration documentation](https://github.com/AdColony/AdColony-Android-SDK-3/wiki).
+To get started, here is the link to [Android SDK integration documentation](https://github.com/AdColony/AdColony-Android-SDK/wiki).
 
 ### Supporting 64-bit on Android
 Version 3.3.7 and above no longer uses the .so libraries and these can be removed from your project. SDK 3.3.7 and above supports 64-bit without the .so libraries.
@@ -26,7 +26,7 @@ If you are using using earlier 3.x SDK versions you need to add the proper libad
 ## Upgrade 
 #### SDK 2.x:
 
-Please note that updating from our 2.x SDK is not a drag and drop update, but rather includes breaking API and process changes. In order to take advantage of the 3.x SDK, a complete re-integration is necessary. Please review our [documentation](https://github.com/AdColony/AdColony-Android-SDK-3/wiki) to get a better idea on what changes will be necessary in your app.
+Please note that updating from our 2.x SDK is not a drag and drop update, but rather includes breaking API and process changes. In order to take advantage of the 3.x SDK, a complete re-integration is necessary. Please review our [documentation](https://github.com/AdColony/AdColony-Android-SDK/wiki) to get a better idea on what changes will be necessary in your app.
 
 #### SDK 3.x:
 Update the AdColony library referenced by your project following the steps below:
@@ -38,7 +38,7 @@ Update the AdColony library referenced by your project following the steps below
 
 **Via Gradle**
 
-Assuming our maven repo is added to your project (see our [project setup guide](https://github.com/AdColony/AdColony-Android-SDK-3/wiki/Project-Setup)), update your 'dependencies' configuration within your module's build.gradle to point to the latest version:
+Assuming our maven repo is added to your project (see our [project setup guide](https://github.com/AdColony/AdColony-Android-SDK/wiki/Project-Setup)), update your 'dependencies' configuration within your module's build.gradle to point to the latest version:
 
 ```
 dependencies {
