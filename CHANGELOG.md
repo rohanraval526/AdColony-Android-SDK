@@ -1,4 +1,11 @@
 # Change Log
+## 4.1.0 (2019/09/23)
+* Added banner ads.
+* Implemented the Open Measurement SDK for viewability measurement and received certification from IAB.
+
+## 4.0.0 (2019/09)
+* Closed beta.
+
 ## 3.3.11 (2019/07/15)
 * Fixed ConcurrentModificationException that was exposed with a server-side update.
 * Fixed an issue related to partial downloads that potentially caused AdColony to become disabled.
