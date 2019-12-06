@@ -1,4 +1,11 @@
 # Change Log
+## 4.1.1 (2019/12/06)
+* Fixed issue [#65](https://github.com/AdColony/AdColony-Android-SDK/issues/65)
+* Amazon Advertising Id collection.
+* Slightly reduced SDK size.
+* Updated OM SDK.
+* Various Bugfixes.
+
 ## 4.1.0 (2019/09/23)
 * Added banner ads.
 * Implemented the Open Measurement SDK for viewability measurement and received certification from IAB.
