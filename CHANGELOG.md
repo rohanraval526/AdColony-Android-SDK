@@ -1,4 +1,7 @@
 # Change Log
+## 4.1.2 (2019/12/17)
+* Improved handling of exception originally addressed in [3.3.8](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md#338-20190117)
+
 ## 4.1.1 (2019/12/06)
 * Fixed issue [#65](https://github.com/AdColony/AdColony-Android-SDK/issues/65)
 * Amazon Advertising Id collection.
