@@ -1,4 +1,7 @@
 # Change Log
+## 4.1.3 (2020/01/17)
+* Updated OM SDK to v1.3.0
+
 ## 4.1.2 (2019/12/17)
 * Improved handling of exception originally addressed in [3.3.8](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md#338-20190117)
 
