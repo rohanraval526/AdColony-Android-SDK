@@ -1,6 +1,6 @@
 # AdColony Android SDK
-* Modified: December 17th, 2019
-* SDK Version: 4.1.2
+* Modified: January 17th, 2020
+* SDK Version: 4.1.3
 
 ## Overview
 AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https://www.adcolony.com/technology/instant-play/), [interactive Aurora™ Video](https://www.adcolony.com/technology/auroravideo/), and Aurora™ Playable ads that can be displayed anywhere within your application. Our advertising SDK is trusted by the world’s top gaming and non-gaming publishers, delivering them the highest monetization opportunities from brand and performance advertisers. AdColony’s SDK can monetize a wide range of ad formats including in-stream/pre-roll, out-stream/interstitial and V4VC™, a secure system for rewarding users of your app with virtual currency upon the completion of video and playable ads.
@@ -8,9 +8,9 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 ## Release Notes
 
-#### 4.1.2
+#### 4.1.3
 
-* Improved handling of exception originally addressed in [3.3.8](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md#338-20190117)
+* Updated OM SDK to v1.3.0
 
 Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md) for all the previous SDK versions and please check out the 3.3 SDK [integration tips](https://www.adcolony.com/blog/2018/02/22/reaching-new-heights-sdk-3-3/).
 
