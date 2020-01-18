@@ -12,7 +12,7 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 * Updated OM SDK to v1.3.0
 
-Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md) for all the previous SDK versions and please check out the 3.3 SDK [integration tips](https://www.adcolony.com/blog/2018/02/22/reaching-new-heights-sdk-3-3/).
+Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md) for all the previous SDK versions.
 
 ## Getting Started 
 To get started, here is the link to [Android SDK integration documentation](https://github.com/AdColony/AdColony-Android-SDK/wiki).
@@ -33,7 +33,6 @@ Update the AdColony library referenced by your project following the steps below
 **Manual**
 
 * Drag and drop the adcolony.jar into your project.
-* Drag and drop the native libraries your application supports into your project.
 
 **Via Gradle**
 
@@ -44,7 +43,7 @@ dependencies {
   /** 
    * Any other dependencies your module has are placed in this dependency configuration
    */
-  implementation 'com.adcolony:sdk:3.3.11'
+  implementation 'com.adcolony:sdk:4.1.3'
 }
 ```
 
