@@ -1,4 +1,8 @@
 # Change Log
+## 4.1.4 (2020/02/25)
+* Updated OM SDK to v1.3.1.
+* Fixed [issue #72](https://github.com/AdColony/AdColony-Android-SDK/issues/72).
+
 ## 4.1.3 (2020/01/17)
 * Updated OM SDK to v1.3.0
 
