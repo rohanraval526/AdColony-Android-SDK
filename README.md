@@ -8,10 +8,13 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 ## Release Notes
 
-#### 4.1.4
+#### 4.2.0
 
-* Updated OM SDK to v1.3.1.
-* Fixed [issue #72](https://github.com/AdColony/AdColony-Android-SDK/issues/72).
+* Deprecated AdColonyUserMetadata.
+* Deprecated GDPR specific methods in AdColonyAppOptions in favor of a more generic solution that allows for inclusion of information related to other privacy laws. Please see our page on [privacy laws](https://github.com/AdColony/AdColony-Android-SDK/wiki/Privacy-Laws) for more information.
+* Updated and added support for OM SDK v1.3.4.
+* Added collectSignals() helper for certain advanced bidding mediation integrations.
+* Various bugfixes.
 
 Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK/blob/master/CHANGELOG.md) for all the previous SDK versions.
 
