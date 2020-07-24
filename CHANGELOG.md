@@ -1,4 +1,7 @@
 # Change Log
+## 4.2.1 (2020/07/23)
+* Removed use of StandardCharsets for compatibility with older Android API versions.
+
 ## 4.2.0 (2020/07/07)
 * Deprecated AdColonyUserMetadata.
 * Deprecated GDPR specific methods in AdColonyAppOptions in favor of a more generic solution that allows for inclusion of information related to other privacy laws. Please see our page on [privacy laws](https://github.com/AdColony/AdColony-Android-SDK/wiki/Privacy-Laws) for more information.
