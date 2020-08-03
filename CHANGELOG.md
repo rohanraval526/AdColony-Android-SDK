@@ -1,4 +1,7 @@
 # Change Log
+## 4.2.2 (2020/08/03)
+* Fixed issue with banner clickthroughs under specific circumstances when AdColony is configured with an Application reference.
+
 ## 4.2.1 (2020/07/23)
 * Removed use of StandardCharsets for compatibility with older Android API versions.
 
