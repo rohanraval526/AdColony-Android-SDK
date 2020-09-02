@@ -1,4 +1,7 @@
 # Change Log
+## 4.2.3 (2020/09/02)
+* Fixed edge case ANR witnessed by some surrounding WebView instantiation.
+
 ## 4.2.2 (2020/08/03)
 * Fixed issue with banner clickthroughs under specific circumstances when AdColony is configured with an Application reference.
 
