@@ -1,4 +1,7 @@
 # Change Log
+## 4.2.4 (2020/09/10)
+* Fixed internal error leading to an issue with our Unity Plugin from v4.2.3.
+
 ## 4.2.3 (2020/09/02)
 * Fixed edge case ANR witnessed by some surrounding WebView instantiation.
 
