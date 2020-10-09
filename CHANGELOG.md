@@ -1,4 +1,10 @@
 # Change Log
+## 4.3.0 (2020/10/09)
+* Moved WebView user agent retrieval to background thread.
+* Added logAppOpen() and logAdImpression() methods to AdColonyEventTracker API.
+* Updated OM SDK to v1.3.11
+* Internal optimization of network request timeouts.
+
 ## 4.2.4 (2020/09/10)
 * Fixed internal error leading to an issue with our Unity Plugin from v4.2.3.
 
