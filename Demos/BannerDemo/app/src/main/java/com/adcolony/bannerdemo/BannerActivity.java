@@ -18,8 +18,8 @@ import com.adcolony.sdk.AdColonyZone;
 
 public class BannerActivity extends Activity {
 
-    private final String APP_ID = "app185a7e71e1714831a49ec7";
-    private final String ZONE_ID = "vz785bc8d42d9c43fdaf";
+    private final String APP_ID = "INSERT_YOUR_APP_ID_HERE";
+    private final String ZONE_ID = "INSERT_YOUR_BANNER_ZONE_ID_HERE";
     final private String TAG = "AdColonyBannerDemo";
 
     private AdColonyAdViewListener listener;
