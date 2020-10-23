@@ -18,8 +18,8 @@ import com.adcolony.sdk.AdColonyUserMetadata;
 import com.adcolony.sdk.AdColonyZone;
 
 public class RewardedInterstitialActivity extends Activity {
-    final private String APP_ID = "app185a7e71e1714831a49ec7";
-    final private String ZONE_ID = "vz1fd5a8b2bf6841a0a4b826";
+    final private String APP_ID = "INSERT_YOUR_APP_ID_HERE";
+    final private String ZONE_ID = "INSERT_YOUR_REWARDED_ZONE_ID_HERE";
     final private String TAG = "AdColonyDemo";
 
     private Button showButton;
