@@ -39,7 +39,7 @@ Update the AdColony library referenced by your project following the steps below
 
 **Via Gradle**
 
-Assuming our maven repo is added to your project (see our [project setup guide](https://github.com/AdColony/AdColony-Android-SDK/wiki/Project-Setup)), update your 'dependencies' configuration within your module's build.gradle to point to the latest version:
+See our [project setup guide](https://github.com/AdColony/AdColony-Android-SDK/wiki/Project-Setup), update your 'dependencies' configuration within your module's build.gradle to point to the latest version:
 
 ```
 dependencies {
