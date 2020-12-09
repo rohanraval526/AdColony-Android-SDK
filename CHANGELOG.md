@@ -1,4 +1,8 @@
 # Change Log
+## 4.3.1 (2020/12/08)
+* Added device_audio (boolean) to AdColony.collectSignals() output
+* Fixed exception while clicking on a display ad
+
 ## 4.3.0 (2020/10/09)
 * Moved WebView user agent retrieval to background thread.
 * Added logAppOpen() and logAdImpression() methods to AdColonyEventTracker API.
