@@ -1,4 +1,9 @@
 # Change Log
+## 4.4.0 (2021/01/12)
+* Minimized exposure to specific Android APIs through our JavascriptInterface due to policy changes from Google
+* Added asynchronous AdColony.collectSignals() and deprecated synchronous version
+* Various bugfixes
+
 ## 4.3.1 (2020/12/08)
 * Added device_audio (boolean) to AdColony.collectSignals() output
 * Fixed exception while clicking on a display ad
