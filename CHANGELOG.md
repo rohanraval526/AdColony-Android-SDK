@@ -1,4 +1,7 @@
 # Change Log
+## 4.4.1 (2021/01/28)
+* Fixed edge case exception thrown when using asynchronous collectSignals
+
 ## 4.4.0 (2021/01/12)
 * Minimized exposure to specific Android APIs through our JavascriptInterface due to policy changes from Google
 * Added asynchronous AdColony.collectSignals() and deprecated synchronous version
