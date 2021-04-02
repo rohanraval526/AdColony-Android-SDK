@@ -1,4 +1,10 @@
 # Change Log
+## 4.5.0 (2021/04/02)
+* Optimized data returned via collectSignals()
+* Altered session measurement logic to reach parity with iOS.
+* Fixed edge case NoSuchElementException due to thread synchronization issue
+* Fixed edge case Error when clearCustomMessageListeners() is called
+
 ## 4.4.1 (2021/01/28)
 * Fixed edge case exception thrown when using asynchronous collectSignals
 
