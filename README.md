@@ -8,9 +8,12 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 ## Release Notes
 
-#### 4.4.1
+#### 4.5.0
 
-* Fixed edge case exception thrown when using asynchronous collectSignals
+* Optimized data returned via collectSignals()
+* Altered session measurement logic to reach parity with iOS.
+* Fixed edge case NoSuchElementException due to thread synchronization issue
+* Fixed edge case Error when clearCustomMessageListeners() is called
 
 **Required update**
 **Due to policy changes from Google, publishers are required to use sdk version 4.4.0 or above**
@@ -46,7 +49,7 @@ dependencies {
   /** 
    * Any other dependencies your module has are placed in this dependency configuration
    */
-  implementation 'com.adcolony:sdk:4.4.1'
+  implementation 'com.adcolony:sdk:4.5.0'
 }
 ```
 
