@@ -1,4 +1,16 @@
 # Change Log
+## 4.6.0 (2021/08/03)
+* Note: Potentially requires Gradle Plugin version updates. See [this blog post](https://android-developers.googleblog.com/2020/07/preparing-your-build-for-package-visibility-in-android-11.html) for more information.
+* Internal communication adjustments to improve CPU usage and battery life
+* Threading optimization to minimize number of concurrent threads and memory usage
+* Additional ad request safety to avoid potential timeouts
+* Fixed issue where interstitial ad show attempts would fail without feedback when a network filter mismatch occurred
+* Added support for app install demand from additional stores
+* Fixed edge case ANR on Unity
+* Fixed edge case ConcurrentModificationException
+* Optimized data returned via collectSignals()
+* Various other bug fixes and performance improvements
+
 ## 4.5.0 (2021/04/02)
 * Optimized data returned via collectSignals()
 * Altered session measurement logic to reach parity with iOS.
