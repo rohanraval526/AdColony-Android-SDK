@@ -14,7 +14,6 @@ import com.adcolony.sdk.AdColonyInterstitial;
 import com.adcolony.sdk.AdColonyInterstitialListener;
 import com.adcolony.sdk.AdColonyReward;
 import com.adcolony.sdk.AdColonyRewardListener;
-import com.adcolony.sdk.AdColonyUserMetadata;
 import com.adcolony.sdk.AdColonyZone;
 
 public class RewardedInterstitialActivity extends Activity {
@@ -43,17 +42,10 @@ public class RewardedInterstitialActivity extends Activity {
         // be available as soon as possible.
         AdColony.configure(this, appOptions, APP_ID, ZONE_ID);
 
-        // Optional user metadata sent with the ad options in each request
-        AdColonyUserMetadata metadata = new AdColonyUserMetadata()
-            .setUserAge(26)
-            .setUserEducation(AdColonyUserMetadata.USER_EDUCATION_BACHELORS_DEGREE)
-            .setUserGender(AdColonyUserMetadata.USER_MALE);
-
         // Ad specific options to be sent with request
         adOptions = new AdColonyAdOptions()
-            .enableConfirmationDialog(true)
-            .enableResultsDialog(true)
-            .setUserMetadata(metadata);
+                .enableConfirmationDialog(true)
+                .enableResultsDialog(true);
 
         // Create and set a reward listener
         AdColony.setRewardListener(new AdColonyRewardListener() {
@@ -129,6 +121,5 @@ public class RewardedInterstitialActivity extends Activity {
             progress.setVisibility(View.VISIBLE);
             AdColony.requestInterstitial(ZONE_ID, listener, adOptions);
         }
-
     }
 }

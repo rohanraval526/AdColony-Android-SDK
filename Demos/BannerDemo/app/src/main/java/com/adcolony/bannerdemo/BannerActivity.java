@@ -39,10 +39,8 @@ public class BannerActivity extends Activity {
         buttonLoad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 //Remove previous ad view if present.
-                if(adContainer.getChildCount() > 0)
-                {
+                if (adContainer.getChildCount() > 0) {
                     adContainer.removeView(adView);
                 }
 
@@ -100,7 +98,6 @@ public class BannerActivity extends Activity {
                 super.onLeftApplication(ad);
                 Log.d(TAG, "onLeftApplication");
             }
-
         };
     }
 
@@ -112,11 +109,9 @@ public class BannerActivity extends Activity {
         AdColony.requestAdView(ZONE_ID, listener, AdColonyAdSize.BANNER, adOptions);
     }
 
-    private void resetUI()
-    {
+    private void resetUI() {
         progressBar.setVisibility(View.GONE);
         buttonLoad.setEnabled(true);
         buttonLoad.setAlpha(1.0f);
-
     }
 }

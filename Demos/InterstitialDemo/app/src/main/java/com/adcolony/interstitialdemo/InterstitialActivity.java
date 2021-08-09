@@ -12,7 +12,6 @@ import com.adcolony.sdk.AdColonyAdOptions;
 import com.adcolony.sdk.AdColonyAppOptions;
 import com.adcolony.sdk.AdColonyInterstitial;
 import com.adcolony.sdk.AdColonyInterstitialListener;
-import com.adcolony.sdk.AdColonyUserMetadata;
 import com.adcolony.sdk.AdColonyZone;
 
 public class InterstitialActivity extends Activity {
@@ -34,21 +33,15 @@ public class InterstitialActivity extends Activity {
 
         // Construct optional app options object to be sent with configure
         AdColonyAppOptions appOptions = new AdColonyAppOptions()
-            .setUserID("unique_user_id")
-            .setKeepScreenOn(true);
+                .setUserID("unique_user_id")
+                .setKeepScreenOn(true);
 
         // Configure AdColony in your launching Activity's onCreate() method so that cached ads can
         // be available as soon as possible.
         AdColony.configure(this, appOptions, APP_ID, ZONE_ID);
 
-        // Optional user metadata sent with the ad options in each request
-        AdColonyUserMetadata metadata = new AdColonyUserMetadata()
-            .setUserAge(26)
-            .setUserEducation(AdColonyUserMetadata.USER_EDUCATION_BACHELORS_DEGREE)
-            .setUserGender(AdColonyUserMetadata.USER_MALE);
-
         // Ad specific options to be sent with request
-        adOptions = new AdColonyAdOptions().setUserMetadata(metadata);
+        adOptions = new AdColonyAdOptions();
 
         // Set up listener for interstitial ad callbacks. You only need to implement the callbacks
         // that you care about. The only required callback is onRequestFilled, as this is the only
