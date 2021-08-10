@@ -1,4 +1,7 @@
 # Change Log
+## 4.6.1 (2021/08/10)
+* Fix NullPointerException and NoClassDefFoundError exposed by 4.6.0 on devices below API 19.
+
 ## 4.6.0 (2021/08/03)
 * Note: Potentially requires Gradle Plugin version updates. See [this blog post](https://android-developers.googleblog.com/2020/07/preparing-your-build-for-package-visibility-in-android-11.html) for more information.
 * Internal communication adjustments to improve CPU usage and battery life

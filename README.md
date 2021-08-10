@@ -1,6 +1,6 @@
 # AdColony Android SDK
-* Modified: August 3rd, 2021
-* SDK Version: 4.6.0
+* Modified: August 10th, 2021
+* SDK Version: 4.6.1
 
 ## Overview
 AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https://www.adcolony.com/technology/instant-play/), [interactive Aurora™ Video](https://www.adcolony.com/technology/auroravideo/), and Aurora™ Playable ads that can be displayed anywhere within your application. Our advertising SDK is trusted by the world’s top gaming and non-gaming publishers, delivering them the highest monetization opportunities from brand and performance advertisers. AdColony’s SDK can monetize a wide range of ad formats including in-stream/pre-roll, out-stream/interstitial and V4VC™, a secure system for rewarding users of your app with virtual currency upon the completion of video and playable ads.
@@ -8,18 +8,9 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 ## Release Notes
 
-#### 4.6.0
+#### 4.6.1
 
-* Note: Potentially requires Gradle Plugin version updates. See [this blog post](https://android-developers.googleblog.com/2020/07/preparing-your-build-for-package-visibility-in-android-11.html) for more information.
-* Internal communication adjustments to improve CPU usage and battery life
-* Threading optimization to minimize number of concurrent threads and memory usage
-* Additional ad request safety to avoid potential timeouts
-* Fixed issue where interstitial ad show attempts would fail without feedback when a network filter mismatch occurred
-* Added support for app install demand from additional stores
-* Fixed edge case ANR on Unity
-* Fixed edge case ConcurrentModificationException
-* Optimized data returned via collectSignals()
-* Various other bug fixes and performance improvements
+* Fix NullPointerException and NoClassDefFoundError exposed by 4.6.0 on devices below API 19.
 
 **Required update**
 **Due to policy changes from Google, publishers are required to use sdk version 4.4.0 or above**
@@ -55,7 +46,7 @@ dependencies {
   /** 
    * Any other dependencies your module has are placed in this dependency configuration
    */
-  implementation 'com.adcolony:sdk:4.6.0'
+  implementation 'com.adcolony:sdk:4.6.1'
 }
 ```
 
