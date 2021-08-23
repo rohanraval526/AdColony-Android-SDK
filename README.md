@@ -1,5 +1,5 @@
 # AdColony Android SDK
-* Modified: August 23th, 2021
+* Modified: August 23rd, 2021
 * SDK Version: 4.6.2
 
 ## Overview
