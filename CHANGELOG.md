@@ -1,4 +1,7 @@
 # Change Log
+## 4.6.2 (2021/08/23)
+* Fixed NullPointerException exposed in 4.6.0.
+
 ## 4.6.1 (2021/08/10)
 * Fix NullPointerException and NoClassDefFoundError exposed by 4.6.0 on devices below API 19.
 
