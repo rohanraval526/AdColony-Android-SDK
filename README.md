@@ -8,11 +8,11 @@ AdColony delivers zero-buffering, [full-screen, Instant-Play™ HD video](https:
 
 ## Release Notes
 
-#### 4.6.1
+#### 4.6.2
 
-* Fix NullPointerException and NoClassDefFoundError exposed by 4.6.0 on devices below API 19.
+* Fixed NullPointerException exposed in 4.6.0.
 
-**Required update:<br/>**
+**Required update**
 **Due to policy changes from Google, publishers are required to use SDK version 4.4.0 or above.**
 
 *Note: SDK version 4.6.0 and above potentially requires Gradle Plugin version updates. See [this blog post](https://android-developers.googleblog.com/2020/07/preparing-your-build-for-package-visibility-in-android-11.html) for more information.*
