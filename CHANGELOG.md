@@ -1,4 +1,7 @@
 # Change Log
+## 4.6.3 (2021/08/30)
+* Altered user agent retrieval logic to avoid issues with WebView reported during initialization.
+
 ## 4.6.2 (2021/08/23)
 * Fixed NullPointerException exposed in 4.6.0.
 
