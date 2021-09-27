@@ -1,7 +1,4 @@
 # Change Log
-## 4.6.4 (2021/09/27)
-* Improved JSON synchronization to fix edge case ConcurrentModificationException.
-
 ## 4.6.4 (2021/09/15)
 * Improved JSON synchronization to fix edge case ConcurrentModificationException.
 
