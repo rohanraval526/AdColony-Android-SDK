@@ -20,7 +20,7 @@ public class BannerActivity extends Activity {
 
     private final String APP_ID = "INSERT_YOUR_APP_ID_HERE";
     private final String ZONE_ID = "INSERT_YOUR_BANNER_ZONE_ID_HERE";
-    final private String TAG = "AdColonyBannerDemo";
+    private final String TAG = "AdColonyBannerDemo";
 
     private AdColonyAdViewListener listener;
     private AdColonyAdOptions adOptions;
@@ -33,23 +33,21 @@ public class BannerActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         adContainer = findViewById(R.id.ad_container);
         progressBar = findViewById(R.id.progress);
         buttonLoad = findViewById(R.id.load_button);
-        buttonLoad.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //Remove previous ad view if present.
-                if (adContainer.getChildCount() > 0) {
-                    adContainer.removeView(adView);
-                }
-
-                progressBar.setVisibility(View.VISIBLE);
-                buttonLoad.setEnabled(false);
-                buttonLoad.setAlpha(0.5f);
-
-                requestBannerAd();
+        buttonLoad.setOnClickListener(view -> {
+            //Remove previous ad view if present.
+            if (adContainer.getChildCount() > 0) {
+                adContainer.removeView(adView);
             }
+
+            progressBar.setVisibility(View.VISIBLE);
+            buttonLoad.setEnabled(false);
+            buttonLoad.setAlpha(0.5f);
+
+            requestBannerAd();
         });
 
         // Construct optional app options object to be sent with configure

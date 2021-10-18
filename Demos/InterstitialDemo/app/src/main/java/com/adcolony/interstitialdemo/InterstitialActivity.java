@@ -15,9 +15,10 @@ import com.adcolony.sdk.AdColonyInterstitialListener;
 import com.adcolony.sdk.AdColonyZone;
 
 public class InterstitialActivity extends Activity {
-    final private String APP_ID = "INSERT_YOUR_APP_ID_HERE";
-    final private String ZONE_ID = "INSERT_YOUR_INTERSTITIAL_ZONE_ID_HERE";
-    final private String TAG = "AdColonyDemo";
+
+    private final String APP_ID = "INSERT_YOUR_APP_ID_HERE";
+    private final String ZONE_ID = "INSERT_YOUR_INTERSTITIAL_ZONE_ID_HERE";
+    private final String TAG = "AdColonyDemo";
 
     private Button showButton;
     private ProgressBar progress;
@@ -83,12 +84,7 @@ public class InterstitialActivity extends Activity {
 
         // Set up button to show an ad when clicked
         showButton = findViewById(R.id.showbutton);
-        showButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ad.show();
-            }
-        });
+        showButton.setOnClickListener(v -> ad.show());
     }
 
     @Override
