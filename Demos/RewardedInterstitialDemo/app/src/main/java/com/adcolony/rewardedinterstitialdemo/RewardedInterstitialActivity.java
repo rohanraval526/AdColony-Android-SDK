@@ -17,9 +17,10 @@ import com.adcolony.sdk.AdColonyRewardListener;
 import com.adcolony.sdk.AdColonyZone;
 
 public class RewardedInterstitialActivity extends Activity {
-    final private String APP_ID = "INSERT_YOUR_APP_ID_HERE";
-    final private String ZONE_ID = "INSERT_YOUR_REWARDED_ZONE_ID_HERE";
-    final private String TAG = "AdColonyDemo";
+
+    private final String APP_ID = "INSERT_YOUR_APP_ID_HERE";
+    private final String ZONE_ID = "INSERT_YOUR_REWARDED_ZONE_ID_HERE";
+    private final String TAG = "AdColonyDemo";
 
     private Button showButton;
     private ProgressBar progress;
@@ -35,8 +36,8 @@ public class RewardedInterstitialActivity extends Activity {
 
         // Construct optional app options object to be sent with configure
         AdColonyAppOptions appOptions = new AdColonyAppOptions()
-            .setUserID("unique_user_id")
-            .setKeepScreenOn(true);
+                .setUserID("unique_user_id")
+                .setKeepScreenOn(true);
 
         // Configure AdColony in your launching Activity's onCreate() method so that cached ads can
         // be available as soon as possible.
@@ -52,7 +53,7 @@ public class RewardedInterstitialActivity extends Activity {
             @Override
             public void onReward(AdColonyReward reward) {
                 // Query reward object for info here
-                Log.d( TAG, "onReward" );
+                Log.d(TAG, "onReward");
             }
         });
 
@@ -96,12 +97,7 @@ public class RewardedInterstitialActivity extends Activity {
 
         // Set up button to show an ad when clicked
         showButton = findViewById(R.id.showbutton);
-        showButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ad.show();
-            }
-        });
+        showButton.setOnClickListener(view -> ad.show());
     }
 
     @Override
