@@ -1,4 +1,8 @@
 # Change Log
+## 4.6.5 (2021/10/21)
+* AD_ID permission support for Android 12.
+* Various internal, edge case bugfixes that have not been publicly reported by publishers.
+
 ## 4.6.4 (2021/09/15)
 * Improved JSON synchronization to fix edge case ConcurrentModificationException.
 
